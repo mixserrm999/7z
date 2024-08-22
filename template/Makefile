@@ -1,7 +1,7 @@
 # export THEOS=/var/theos
 
 
-ARCHS = arm64 arm64e 
+ARCHS = arm64 #arm64e 
 
 DEBUG = 0
 FINALPACKAGE = 1
@@ -20,7 +20,7 @@ ifeq ($(MOBILE_THEOS),1)
   $(info ===> Setting SYSROOT to $(SDK_PATH)...)
   SYSROOT = $(SDK_PATH)
 else
-  TARGET = iphone:clang:latest:8.0
+  TARGET = iphone:clang:latest:9.0
 endif
 
 include $(THEOS)/makefiles/common.mk
