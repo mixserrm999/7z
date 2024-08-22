@@ -10,7 +10,7 @@
 @interface ImGuiLoad()
 @property (nonatomic, strong) ImGuiDrawView *vna;
 @end
-UIWindow *mainWindow;
+extern UIWindow *mainWindow; // การประกาศ extern เพื่อใช้ตัวแปร mainWindow ที่กำหนดไว้ในไฟล์อื่น
 @implementation ImGuiLoad
 
 + (instancetype)share
