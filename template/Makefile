@@ -33,7 +33,7 @@ TWEAK_NAME = @@PROJECTNAME@@
 PROJ_COMMON_FRAMEWORKS =  UIKit Foundation Security QuartzCore CoreGraphics CoreText  AVFoundation Accelerate GLKit SystemConfiguration GameController
 
 @@PROJECTNAME@@_CCFLAGS = -std=c++11 -fno-rtti -fno-exceptions -DNDEBUG
-@@PROJECTNAME@@_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-unused-variable -Wno-unused-value
+@@PROJECTNAME@@_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-unused-variable -Wno-unused-value -Wno-unused-but-set-variable
 
 ifeq ($(IGNORE_WARNINGS),1)
   @@PROJECTNAME@@_CFLAGS += -w
