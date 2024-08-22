@@ -1,8 +1,10 @@
-Package: com.kustcc
-Name: kust
+Package: @@PACKAGENAME@@
+Name: @@APPNAME@@ Mod Menu
 Depends: mobilesubstrate
-Version: 1.0.0
+Version: @@APPVERSION@@
 Architecture: iphoneos-arm
-Description: kustcc ImGui
-Maintainer: kust
-Author: KusTTT
+Description: @@APPNAME@@ Mod Menu by @@USER@@!
+Maintainer: @@USER@@
+Author: @@USER@@
+Section: Tweaks
+Homepage: @@SITE@@
